@@ -1,0 +1,76 @@
+// -----------------------------------------------------------------
+//! Planet Styles
+// -----------------------------------------------------------------
+
+.planet {
+	position: absolute;
+	border-radius: 50%;
+}
+
+#planet-1 {
+	background-image:url('../svg/planet-1.svg');
+	background-size:96px 96px;
+	width:96px;
+	height:96px;
+	left:30%;
+	top:-128px;
+	transform: rotate(60deg);
+	box-shadow:0 0 32px rgba(237, 24, 117, 0.6);	
+}
+
+#planet-2 {
+	background-image:url('../svg/planet-2.svg');
+	background-size:192px 192px;
+	width:192px;
+	height:192px;
+	left:90%;
+	top:-232px;
+	transform: rotate(60deg);
+	box-shadow:0 0 40px rgba(41, 253, 218, 0.4);
+}
+
+#planet-3 {
+	background-image:url('../svg/planet-3.svg');
+	background-size:32px 32px;
+	width:32px;
+	height:32px;
+	left:40%;
+	top:-52px;
+	transform: rotate(60deg);
+	box-shadow:0 0 20px rgba(254, 211, 139, 0.4);
+}
+
+#planet-4 {
+	background-image:url('../svg/planet-4.svg');
+	background-size:32px 32px;
+	width:32px;
+	height:32px;
+	left:120%;
+	top:-52px;
+	transform: rotate(60deg);
+	box-shadow:0 0 20px rgba(253, 162, 134, 0.4);	
+}
+
+#planet-5 {
+	background-image:url('../svg/planet-6.svg');
+	background-size:80px 80px;
+	width:80px;
+	height:80px;
+	left:170%;
+	top:-112px;
+	transform: rotate(60deg);
+	box-shadow:0 0 60px rgba(66, 217, 252, 0.24);		
+}
+
+#moon {
+	position: absolute;
+	border-radius: 50%;
+	width:24px;
+	height:24px;
+	background:#7F7F7F;
+	box-shadow:0 0 12px rgba(253, 162, 134, 0.4);
+	top:0;
+	left:50%;
+	margin:-24px 0 0 0;
+	transform: scale(0);
+}

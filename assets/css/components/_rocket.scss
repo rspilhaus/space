@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------
+//! RocketShip Styles
+// -----------------------------------------------------------------
+
+.rocket {
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%) rotate(60deg); 
+	display: block;
+}
+
+.rocket svg {
+	display: block;
+	@include respond(640px, "down") {
+		width:80px;
+	}
+}
